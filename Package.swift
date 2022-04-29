@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.6
 /*
 See LICENSE folder for this sample’s licensing information.
 
