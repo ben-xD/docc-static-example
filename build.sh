@@ -1,12 +1,11 @@
 #!/bin/bash
 set -euxo pipefail
 
-# This won't be a static site
-# swift package generate-documentation
+# swift package generate-documentation won't generate a useful static site. So we have more complicated commands instead:
 
 TARGET_NAME=SlothCreator
+rm -rf docs
 OUTPUT_DIR=docs
-git clean -fx build
 # Build for root path: eg http://localhost:8000/documentation/SlothCreator
 # This is useful if you have a domain/subdomain specifically for this documentation
 # swift package --allow-writing-to-directory $OUTPUT_DIR \
