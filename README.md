@@ -1,5 +1,7 @@
 # SlothCreator: Building DocC Documentation in Xcode
 
+Downloaded from https://developer.apple.com/documentation/xcode/slothcreator_building_docc_documentation_in_xcode
+
 Build DocC documentation for a Swift package that contains a DocC Catalog.
 
 ## Overview
